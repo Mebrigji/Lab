@@ -74,8 +74,8 @@ if __name__ == '__main__':
             else:
                 print(f"Posortowane liczby: {z}, {y}, {x}")
     elif task == 6:
-        deszcz = bool(input("Czy pada deszcz? "))
-        autobus = bool(input("Czy autobus jest na przystanku? "))
+        deszcz = bool(input("Czy pada deszcz: "))
+        autobus = bool(input("Czy autobus jest na przystanku: "))
         if deszcz and autobus:
             print("Weź parasol. Dostaniesz się na uczelnię.")
         elif deszcz and not autobus:

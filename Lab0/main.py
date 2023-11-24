@@ -1,8 +1,7 @@
 import random
 
 if __name__ == '__main__':
-    print("Zadania: 1 (dł. boków, pole oraz obwód prostokąta), "
-          "2 (dr. pokonana, oraz spalanie), 3 (losowa droga, spalanie), 4 (równanie liniowe), 5 (pole trójkąta), 6 (kalkulator)")
+    print("Zadania: 1 (dł. boków, pole oraz obwód prostokąta), 2 (dr. pokonana, oraz spalanie), 3 (losowa droga, spalanie), 4 (równanie liniowe), 5 (pole trójkąta), 6 (kalkulator)")
     task = int(input("Nr. zadania: "))
     if task == 1:
         a = int(input("Długość boku a: "))
