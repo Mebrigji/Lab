@@ -172,5 +172,21 @@ if __name__ == '__main__':
         for i in range(1, n+1):
             an = a+(i-1) * r
             print(f"{i} / {an}")
+
     elif task == 11:
-        n = int(input("Dlugosc: "))
+
+        n = int(input("Silnia: "))
+
+        total = 1
+
+        for i in range(1, n+1):
+            if i % 10 == 0:
+                print("")
+            if i != 1:
+                print(f"* {i} ", end = "")
+            else:
+                print(f"{i} ", end = "")
+
+            total *= i
+
+        print(f"= {total}")
